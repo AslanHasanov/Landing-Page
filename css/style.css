@@ -35,15 +35,13 @@
 }
 .part1{
     background-image: url(..//images/bg-masthead.jpg);
-    
     background-size: cover;
     background-position: center;
-    background-color: #212529;
     background-attachment: fixed;
     padding-top: 10rem;
     padding-bottom: 10rem;
-    text-align: center;
-    
+    text-align: center;   
+    background-attachment: fixed;
 }
 .part1 h1{
 color: #fff;
@@ -81,13 +79,14 @@ line-height: 1.2;
 width: 100%;
 padding: 2rem 7rem;   
 padding-top: 7rem;
+margin-bottom: 3rem;
 
 }
 .part2 .box{
 width: 30%;
 display: inline-block;
 text-align: center;
-margin-right: 50px;
+margin-left: 30px;
 }
 .box .top{
     
@@ -117,8 +116,6 @@ height: 7rem;
 }
 .part3{
     flex-wrap: wrap;
-   
-
 }
 .part3 .box1{
   display: flex; 
@@ -138,6 +135,7 @@ height: 7rem;
     background-size: cover;
     background-position: center;  
     height: 450px;
+   
 }
 
 
@@ -168,6 +166,7 @@ height: 7rem;
     background-size: cover;
     background-position: center;  
     height: 450px;
+    background-attachment: fixed;
 }
 .part3 .box3{
     display: flex;
@@ -188,4 +187,111 @@ height: 7rem;
     background-position: center;  
     height: 450px;
 }
+.part4 h1{
+    text-align: center;
+    font-weight: 700;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.part4{
+    margin: 4rem 0;
+}
+.part4 .humans{
+display: flex;
+text-align: center;
+}
+.humans .box1{
+width: 33.33333333%;
+}
+.humans .box2{
+    width: 33.33333333%; 
+}.humans .box3{
+    width: 33.33333333%;
+}
+.humans .bottom{
+    text-align: center;
+    padding: 0 7rem;
+}
+.humans h5{
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+.humans .top{
+width: 40%;
+margin-left: 9rem;
+
+}
+.humans img{
+    
+    width: 100%;
+    box-shadow: 0px 5px 5px 0px #adb5bd;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+.part5{
+    background-image: url(..//images/bg-masthead.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    text-align: center;   
+    background-attachment: fixed;
+}
+.part5 h1{
+    color: #fff;
+    font-size: 2rem;
+margin-bottom: 1rem ;
+font-weight: 700;
+line-height: 1.2;
+}
+.part5 .form2 input{
+ 
+    margin: 1.2rem;
+    font-size: 1.25rem;
+    width: 37rem;
+    border-color: #266CD3;
+    border-radius: 5px;
+    padding: 1rem 1.25rem;
+}
+.part5 .form2 button{
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    display: inline-block;
+    padding: 1rem 1.25rem;
+    font-size: 1.25rem;
+    border-radius: 0.3rem;
+    opacity: 0.65;
+}
+.container{
+   padding: 4rem 7rem 6rem;
+
+}
+.container .left{
+    text-align: left;
+    float: left;
+}
+.container ul{
+    padding-left: 0;
+    list-style: none;
+}
+.container li{
+    display: inline-block;
+    margin-bottom: 1rem;
+    
+}
+.container a{
+    color: #0D6EFD;
+}
+.container .right{
+    float: right;
+   
+}
+.container .right i{
+    padding-left: 1rem;
+    font-size: 3rem;
+    color: #0D6EFD;
+}
+
 
